@@ -23,4 +23,5 @@ jobs:
     - name: Running pytest (unittest, doctest)
       id: pytest
       run: |
+        "nhs_api_key=${{ secrets.NHS_API_KEY }}" >> ./.secrets
         python -m pytest
