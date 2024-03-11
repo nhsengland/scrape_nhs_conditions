@@ -1,6 +1,6 @@
 # Scrape NHS Conditions 
 
-![Build](https://github.com/SamHollings/output_checker/actions/workflows/ci.yml/badge.svg)
+![Build](https://github.com/nhsengland/scrape_nhs_conditions/actions/workflows/ci.yml/badge.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

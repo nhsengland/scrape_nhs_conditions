@@ -74,6 +74,9 @@ class NHSConditionsAPISpider(scrapy.Spider):
         "HTTPERROR_ALLOW_ALL": True,  # It is important that the response callback is always called, even if there was an error, to update the item queue.
     }
 
+    load_dotenv(".secrets")
+    os.environ["NHS_API_KEY"] = os.getenv("nhs_api_key")
+
     source_id = "nhs_conditions"
     api_key = os.environ["NHS_API_KEY"]
     headers = {"subscription-key": api_key}
