@@ -8,3 +8,7 @@ scrapy
 jupyter
 jsonlines
 python-dotenv
+black
+black[jupyter]
+pytest
+isort
