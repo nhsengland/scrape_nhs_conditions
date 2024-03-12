@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scrape_nhs_conditions"
-version = "1.0.2"
+version = "1.0.4"
 authors = [
     { name="Data Science team", email="datascience@nhs.net" }
 ]
@@ -15,9 +15,13 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dynamic = ["dependencies"]
 
 [project.urls]
 "Homepage" = "https://github.com/nhsengland/scrape_nhs_conditions"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 # `isort` configurations
 [tool.isort]
