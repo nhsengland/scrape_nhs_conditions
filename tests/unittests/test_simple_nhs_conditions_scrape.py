@@ -1,5 +1,5 @@
 import doctest
-import src.data_ingestion.simple_nhs_conditions_scrape as simple_nhs_conditions_scrape
+import src.scrape_nhs_conditions.data_ingestion.simple_nhs_conditions_scrape as simple_nhs_conditions_scrape
 
 
 def load_tests(loader, tests, ignore):  # pylint: disable=unused-argument

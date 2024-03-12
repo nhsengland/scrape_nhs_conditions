@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scrape_nhs_conditions"
-version = "1.0.1"
+version = "1.0.2"
 authors = [
     { name="Data Science team", email="datascience@nhs.net" }
 ]

@@ -1,6 +1,6 @@
 from pathlib import Path
 import jsonlines
-import src.data_ingestion.simple_nhs_conditions_scrape as snhscs
+import scrape_nhs_conditions.data_ingestion.simple_nhs_conditions_scrape as snhscs
 
 
 def process_nhs_conditions_json(docs_directory, json_file):
