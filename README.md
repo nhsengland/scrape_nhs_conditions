@@ -107,10 +107,5 @@ Unless stated otherwise, the codebase is released under the MIT License. This co
 Any HTML or Markdown documentation is [© Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 ## Acknowledgements
-- [Connor Quinn](https://github.com/connor1q)
-- [Sam Hollings](https://github.com/SamHollings)
-- [Maakhe Ndhlela](https://github.com/maakhe)
-- [Harriet Sands](https://github.com/harrietrs)
-- [Xiyao Zhuang](https://github.com/xiyaozhuang)
-- [Helen Richardson](https://github.com/helrich)
-- [The RAP team](https://github.com/NHSDigital/rap-community-of-practice)!
+
+Dan Schofield and Jonny Pearson for their great work on https://github.com/nhsx/language-corpus-tools
